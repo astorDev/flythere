@@ -30,3 +30,27 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+```sh
+nslookup flythere-deeplink.egortarasov.com
+```
+
+```
+195.20.239.227
+```
+
+```sh
+open ios/Runner.xcodeproj
+```
+
+```
+Runner -> Signing & Capabilities > Bundle Identifier
+com.example.flythereDeeplinks
+
+Runner -> Signing & Capabilities > Signing Certificate (98Y5P8S823)
+98Y5P8S823
+
+Result:
+98Y5P8S823.com.example.flythereDeeplinks
+```
+

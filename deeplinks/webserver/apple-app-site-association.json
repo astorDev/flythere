@@ -1,0 +1,25 @@
+{
+    "applinks": {
+      "apps": [],
+      "details": [
+        {
+          "appIDs": [
+            "98Y5P8S823.com.example.flythereDeeplinks"
+          ],
+          "paths": [
+            "*"
+          ],
+          "components": [
+            {
+              "/": "/*"
+            }
+          ]
+        }
+      ]
+    },
+    "webcredentials": { 
+      "apps": [
+        "98Y5P8S823.com.example.flythereDeeplinks"
+      ]
+    }
+  }
