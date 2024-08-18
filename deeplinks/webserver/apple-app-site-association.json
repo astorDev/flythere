@@ -4,7 +4,7 @@
       "details": [
         {
           "appIDs": [
-            "98Y5P8S823.com.example.flythereDeeplinks"
+            "7N9CR28R39.com.example.flythereDeeplinks"
           ],
           "paths": [
             "*"
@@ -19,7 +19,7 @@
     },
     "webcredentials": { 
       "apps": [
-        "98Y5P8S823.com.example.flythereDeeplinks"
+        "7N9CR28R39.com.example.flythereDeeplinks"
       ]
     }
   }

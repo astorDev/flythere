@@ -71,6 +71,10 @@ code ~/.bashrc
 export DEEPLINK_HOST=flythere-deeplink.egortarasov.com
 ```
 
+```sh
+xcrun simctl openurl booted https://flythere-deeplink.egortarasov.com/details
+```
+
 ```yaml
 services:
   nginx:
@@ -121,6 +125,20 @@ com.example.flythereDeeplinks
 Runner -> Signing & Capabilities > Signing Certificate (98Y5P8S823)
 98Y5P8S823
 
+Runner > FlutterDeepLinkingEnabled > True
+
 Result:
 98Y5P8S823.com.example.flythereDeeplinks
+```
+
+```
+Runner > Signing & Capabilities > (+) Associated Domains > applinks:flythere-deeplink.egortarasov.com?mode=developer
+```
+
+```sh
+xcrun simctl openurl booted https://flythere-deeplink.egortarasov.com/details
+```
+
+```sh
+https://flythere-deeplink.egortarasov.com/.well-known/apple-app-site-association
 ```
