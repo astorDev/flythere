@@ -54,3 +54,7 @@ Result:
 98Y5P8S823.com.example.flythereDeeplinks
 ```
 
+```sh
+apt update && apt install certbot
+certbot certonly -d flythere-deeplink.egortarasov.com
+```
