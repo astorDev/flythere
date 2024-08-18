@@ -1,0 +1,11 @@
+services:
+  nginx:
+    image: nginx
+    environment:
+      - HOST=${DEEPLINK_HOST}
+    volumes:
+      - ./default.conf.template:/etc/nginx/templates/default.conf.template
+      - /etc/letsencrypt:/etc/letsencrypt
+      - ./apple-app-site-association.json:/etc/nginx/html/.well-known/apple-app-site-association
+    ports:
+      - "443:443"
